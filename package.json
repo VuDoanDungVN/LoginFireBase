@@ -1,0 +1,27 @@
+{
+  "name": "firebase",
+  "license": "0BSD",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.24.0",
+    "@react-native-async-storage/root": "github:react-native-async-storage/async-storage",
+    "expo": "~52.0.19",
+    "expo-status-bar": "~2.0.0",
+    "firebase": "^11.1.0",
+    "react": "18.3.1",
+    "react-native": "0.76.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@types/react": "~18.3.12",
+    "typescript": "^5.3.3"
+  },
+  "private": true
+}
